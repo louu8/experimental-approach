@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Tue Nov 04 2025 18:33:17
+#sha1: 07784e
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5033,stderr,received,'Traceback (most recent call last):'
+5035,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\group-work\\code.py", line 55, in <module>\n    stimuli_dict = load_stimuli()'
+5035,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\group-work\\code.py", line 30, in load_stimuli\n    items[i][t] = stimuli.Picture(path)\n                  ~~~~~~~~~~~~~~~^^^^^^'
+5035,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_picture.py", line 41, in __init__\n    raise OSError("The picture file \'{0}\' does not exist".format(\n        filename))'
+5035,stderr,received,"OSError: The picture file 'C:\\Users\\charl\\CogSup\\programming\\Assignements\\group_project\\SameDiff\\1-def.png' does not exist"
