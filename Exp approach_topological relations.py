@@ -10,8 +10,8 @@ N_PRACTICE_TRIALS = 2
 
 import os
 
-BASE_DIR = r"C:\Users\charl\CogSup\programming\Assignements\group_project"
-IMG_FOLDER = os.path.join(BASE_DIR, "SameDiff")
+#BASE_DIR = r"C:\Users\charl\CogSup\programming\Assignements\group_project"
+IMG_FOLDER = r"SameDiff"
 
 BLANK_DURATION = 500 
 FEEDBACK_DURATION = 1000
@@ -26,7 +26,7 @@ def load_stimuli():
         items[i] = {}
         for t in TRIAL_TYPES:
             filename = f"{i}-{t}.png"
-            path = os.path.join(IMG_FOLDER, filename)
+            path = os.path.join(IMG_FOLDER,filename)
             items[i][t] = stimuli.Picture(path)
             items[i][t].preload()
     return items
@@ -45,7 +45,10 @@ def run_trial(set_id, trial_type, base_item, comp_item):
     comp_item.present()
 
     key, rt = exp.keyboard.wait([K_d, K_s])
-    correct = None  
+    if (comp_item.filename==base_item.filename and key==K_s) or (any(comp_item.filename[12:] == f"{a}.png" for a in TRIAL_TYPES[1:]) and key==K_d):
+        correct = True
+    else :
+        correct = False
 
     exp.data.add([set_id, trial_type, key, rt, correct])
     feedback = stimuli.TextLine("Response recorded", text_colour=C_BLACK)
