@@ -1,0 +1,198 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Wed Nov 05 2025 12:29:44
+#sha1: 668fa0
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='M-E7-APPRIOU.local', release='22.6.0', version='Darwin Kernel Version 22.6.0: Thu Mar  6 21:52:09 PST 2025; root:xnu-8796.141.3.711.5~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+5236,Picture,loaded,SameDiff/1-def.png
+5240,Picture,loaded,SameDiff/1-def.png
+5246,Picture,loaded,SameDiff/1-diff-sametopo.png
+5249,Picture,loaded,SameDiff/1-diff-sametopo.png
+5255,Picture,loaded,SameDiff/1-diff2.png
+5257,Picture,loaded,SameDiff/1-diff2.png
+5262,Picture,loaded,SameDiff/1-diff-difftopo.png
+5265,Picture,loaded,SameDiff/1-diff-difftopo.png
+5270,Picture,loaded,SameDiff/2-def.png
+5273,Picture,loaded,SameDiff/2-def.png
+5278,Picture,loaded,SameDiff/2-diff-sametopo.png
+5281,Picture,loaded,SameDiff/2-diff-sametopo.png
+5286,Picture,loaded,SameDiff/2-diff2.png
+5288,Picture,loaded,SameDiff/2-diff2.png
+5293,Picture,loaded,SameDiff/2-diff-difftopo.png
+5296,Picture,loaded,SameDiff/2-diff-difftopo.png
+5301,Picture,loaded,SameDiff/3-def.png
+5304,Picture,loaded,SameDiff/3-def.png
+5308,Picture,loaded,SameDiff/3-diff-sametopo.png
+5311,Picture,loaded,SameDiff/3-diff-sametopo.png
+5315,Picture,loaded,SameDiff/3-diff2.png
+5318,Picture,loaded,SameDiff/3-diff2.png
+5323,Picture,loaded,SameDiff/3-diff-difftopo.png
+5326,Picture,loaded,SameDiff/3-diff-difftopo.png
+5330,Picture,loaded,SameDiff/4-def.png
+5333,Picture,loaded,SameDiff/4-def.png
+5338,Picture,loaded,SameDiff/4-diff-sametopo.png
+5341,Picture,loaded,SameDiff/4-diff-sametopo.png
+5345,Picture,loaded,SameDiff/4-diff2.png
+5349,Picture,loaded,SameDiff/4-diff2.png
+5353,Picture,loaded,SameDiff/4-diff-difftopo.png
+5356,Picture,loaded,SameDiff/4-diff-difftopo.png
+5361,Picture,loaded,SameDiff/5-def.png
+5365,Picture,loaded,SameDiff/5-def.png
+5370,Picture,loaded,SameDiff/5-diff-sametopo.png
+5374,Picture,loaded,SameDiff/5-diff-sametopo.png
+5378,Picture,loaded,SameDiff/5-diff2.png
+5381,Picture,loaded,SameDiff/5-diff2.png
+5386,Picture,loaded,SameDiff/5-diff-difftopo.png
+5389,Picture,loaded,SameDiff/5-diff-difftopo.png
+5394,Picture,loaded,SameDiff/6-def.png
+5398,Picture,loaded,SameDiff/6-def.png
+5403,Picture,loaded,SameDiff/6-diff-sametopo.png
+5406,Picture,loaded,SameDiff/6-diff-sametopo.png
+5411,Picture,loaded,SameDiff/6-diff2.png
+5415,Picture,loaded,SameDiff/6-diff2.png
+5420,Picture,loaded,SameDiff/6-diff-difftopo.png
+5423,Picture,loaded,SameDiff/6-diff-difftopo.png
+5428,Picture,loaded,SameDiff/7-def.png
+5431,Picture,loaded,SameDiff/7-def.png
+5436,Picture,loaded,SameDiff/7-diff-sametopo.png
+5439,Picture,loaded,SameDiff/7-diff-sametopo.png
+5444,Picture,loaded,SameDiff/7-diff2.png
+5447,Picture,loaded,SameDiff/7-diff2.png
+5452,Picture,loaded,SameDiff/7-diff-difftopo.png
+5455,Picture,loaded,SameDiff/7-diff-difftopo.png
+5460,Picture,loaded,SameDiff/8-def.png
+5463,Picture,loaded,SameDiff/8-def.png
+5467,Picture,loaded,SameDiff/8-diff-sametopo.png
+5470,Picture,loaded,SameDiff/8-diff-sametopo.png
+5475,Picture,loaded,SameDiff/8-diff2.png
+5478,Picture,loaded,SameDiff/8-diff2.png
+5482,Picture,loaded,SameDiff/8-diff-difftopo.png
+5485,Picture,loaded,SameDiff/8-diff-difftopo.png
+5490,Picture,loaded,SameDiff/9-def.png
+5492,Picture,loaded,SameDiff/9-def.png
+5497,Picture,loaded,SameDiff/9-diff-sametopo.png
+5500,Picture,loaded,SameDiff/9-diff-sametopo.png
+5505,Picture,loaded,SameDiff/9-diff2.png
+5507,Picture,loaded,SameDiff/9-diff2.png
+5512,Picture,loaded,SameDiff/9-diff-difftopo.png
+5515,Picture,loaded,SameDiff/9-diff-difftopo.png
+5520,Picture,loaded,SameDiff/10-def.png
+5523,Picture,loaded,SameDiff/10-def.png
+5528,Picture,loaded,SameDiff/10-diff-sametopo.png
+5531,Picture,loaded,SameDiff/10-diff-sametopo.png
+5537,Picture,loaded,SameDiff/10-diff2.png
+5540,Picture,loaded,SameDiff/10-diff2.png
+5545,Picture,loaded,SameDiff/10-diff-difftopo.png
+5549,Picture,loaded,SameDiff/10-diff-difftopo.png
+5554,Picture,loaded,SameDiff/11-def.png
+5557,Picture,loaded,SameDiff/11-def.png
+5562,Picture,loaded,SameDiff/11-diff-sametopo.png
+5565,Picture,loaded,SameDiff/11-diff-sametopo.png
+5570,Picture,loaded,SameDiff/11-diff2.png
+5573,Picture,loaded,SameDiff/11-diff2.png
+5578,Picture,loaded,SameDiff/11-diff-difftopo.png
+5582,Picture,loaded,SameDiff/11-diff-difftopo.png
+5586,Picture,loaded,SameDiff/12-def.png
+5590,Picture,loaded,SameDiff/12-def.png
+5595,Picture,loaded,SameDiff/12-diff-sametopo.png
+5598,Picture,loaded,SameDiff/12-diff-sametopo.png
+5603,Picture,loaded,SameDiff/12-diff2.png
+5606,Picture,loaded,SameDiff/12-diff2.png
+5611,Picture,loaded,SameDiff/12-diff-difftopo.png
+5615,Picture,loaded,SameDiff/12-diff-difftopo.png
+5619,Picture,loaded,SameDiff/13-def.png
+5624,Picture,loaded,SameDiff/13-def.png
+5629,Picture,loaded,SameDiff/13-diff-sametopo.png
+5632,Picture,loaded,SameDiff/13-diff-sametopo.png
+5637,Picture,loaded,SameDiff/13-diff2.png
+5640,Picture,loaded,SameDiff/13-diff2.png
+5645,Picture,loaded,SameDiff/13-diff-difftopo.png
+5648,Picture,loaded,SameDiff/13-diff-difftopo.png
+5653,Picture,loaded,SameDiff/14-def.png
+5656,Picture,loaded,SameDiff/14-def.png
+5661,Picture,loaded,SameDiff/14-diff-sametopo.png
+5663,Picture,loaded,SameDiff/14-diff-sametopo.png
+5668,Picture,loaded,SameDiff/14-diff2.png
+5671,Picture,loaded,SameDiff/14-diff2.png
+5675,Picture,loaded,SameDiff/14-diff-difftopo.png
+5678,Picture,loaded,SameDiff/14-diff-difftopo.png
+5683,Picture,loaded,SameDiff/15-def.png
+5686,Picture,loaded,SameDiff/15-def.png
+5690,Picture,loaded,SameDiff/15-diff-sametopo.png
+5693,Picture,loaded,SameDiff/15-diff-sametopo.png
+5698,Picture,loaded,SameDiff/15-diff2.png
+5701,Picture,loaded,SameDiff/15-diff2.png
+5706,Picture,loaded,SameDiff/15-diff-difftopo.png
+5709,Picture,loaded,SameDiff/15-diff-difftopo.png
+5713,Picture,loaded,SameDiff/16-def.png
+5717,Picture,loaded,SameDiff/16-def.png
+5721,Picture,loaded,SameDiff/16-diff-sametopo.png
+5725,Picture,loaded,SameDiff/16-diff-sametopo.png
+5730,Picture,loaded,SameDiff/16-diff2.png
+5733,Picture,loaded,SameDiff/16-diff2.png
+5738,Picture,loaded,SameDiff/16-diff-difftopo.png
+5741,Picture,loaded,SameDiff/16-diff-difftopo.png
+5746,Picture,loaded,SameDiff/17-def.png
+5749,Picture,loaded,SameDiff/17-def.png
+5754,Picture,loaded,SameDiff/17-diff-sametopo.png
+5758,Picture,loaded,SameDiff/17-diff-sametopo.png
+5763,Picture,loaded,SameDiff/17-diff2.png
+5766,Picture,loaded,SameDiff/17-diff2.png
+5770,Picture,loaded,SameDiff/17-diff-difftopo.png
+5774,Picture,loaded,SameDiff/17-diff-difftopo.png
+5779,Picture,loaded,SameDiff/18-def.png
+5782,Picture,loaded,SameDiff/18-def.png
+5786,Picture,loaded,SameDiff/18-diff-sametopo.png
+5790,Picture,loaded,SameDiff/18-diff-sametopo.png
+5795,Picture,loaded,SameDiff/18-diff2.png
+5799,Picture,loaded,SameDiff/18-diff2.png
+5803,Picture,loaded,SameDiff/18-diff-difftopo.png
+5807,Picture,loaded,SameDiff/18-diff-difftopo.png
+5812,Picture,loaded,SameDiff/19-def.png
+5815,Picture,loaded,SameDiff/19-def.png
+5819,Picture,loaded,SameDiff/19-diff-sametopo.png
+5822,Picture,loaded,SameDiff/19-diff-sametopo.png
+5827,Picture,loaded,SameDiff/19-diff2.png
+5830,Picture,loaded,SameDiff/19-diff2.png
+5835,Picture,loaded,SameDiff/19-diff-difftopo.png
+5837,Picture,loaded,SameDiff/19-diff-difftopo.png
+5842,Picture,loaded,SameDiff/20-def.png
+5845,Picture,loaded,SameDiff/20-def.png
+5849,Picture,loaded,SameDiff/20-diff-sametopo.png
+5852,Picture,loaded,SameDiff/20-diff-sametopo.png
+5856,Picture,loaded,SameDiff/20-diff2.png
+5859,Picture,loaded,SameDiff/20-diff2.png
+5864,Picture,loaded,SameDiff/20-diff-difftopo.png
+5866,Picture,loaded,SameDiff/20-diff-difftopo.png
+11825,design,log,
+#design: #exp: Topology Line Shift
+#design: #dvn: set_id,trial_type,key,rt,correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+11825,design,logged,
+11825,Experiment,started
+11900,Stimulus,presented,80
+14164,Keyboard,received,32,wait
+14181,Stimulus,presented,36
+15514,Stimulus,presented,37
+16298,Keyboard,received,100,wait
+16314,Stimulus,presented,81
+17331,Stimulus,presented,76
+18666,Stimulus,presented,77
+19161,Keyboard,received,100,wait
+19183,Stimulus,presented,82
+20236,Stimulus,presented,83
+22086,Keyboard,received,32,wait
+22086,stdout,received,"[(1, 'def'), (1, 'diff-sametopo'), (1, 'diff2'), (1, 'diff-difftopo'), (2, 'def'), (2, 'diff-sametopo'), (2, 'diff2'), (2, 'diff-difftopo'), (3, 'def'), (3, 'diff-sametopo'), (3, 'diff2'), (3, 'diff-difftopo'), (4, 'def'), (4, 'diff-sametopo'), (4, 'diff2'), (4, 'diff-difftopo'), (5, 'def'), (5, 'diff-sametopo'), (5, 'diff2'), (5, 'diff-difftopo'), (6, 'def'), (6, 'diff-sametopo'), (6, 'diff2'), (6, 'diff-difftopo'), (7, 'def'), (7, 'diff-sametopo'), (7, 'diff2'), (7, 'diff-difftopo'), (8, 'def'), (8, 'diff-sametopo'), (8, 'diff2'), (8, 'diff-difftopo'), (9, 'def'), (9, 'diff-sametopo'), (9, 'diff2'), (9, 'diff-difftopo'), (10, 'def'), (10, 'diff-sametopo'), (10, 'diff2'), (10, 'diff-difftopo'), (11, 'def'), (11, 'diff-sametopo'), (11, 'diff2'), (11, 'diff-difftopo'), (12, 'def'), (12, 'diff-sametopo'), (12, 'diff2'), (12, 'diff-difftopo'), (13, 'def'), (13, 'diff-sametopo'), (13, 'diff2'), (13, 'diff-difftopo'), (14, 'def'), (14, 'diff-sametopo'), (14, 'diff2'), (14, 'diff-difftopo'), (15, 'def'), (15, 'diff-sametopo'), (15, 'diff2'), (15, 'diff-difftopo'), (16, 'def'), (16, 'diff-sametopo'), (16, 'diff2'), (16, 'diff-difftopo'), (17, 'def'), (17, 'diff-sametopo'), (17, 'diff2'), (17, 'diff-difftopo'), (18, 'def'), (18, 'diff-sametopo'), (18, 'diff2'), (18, 'diff-difftopo'), (19, 'def'), (19, 'diff-sametopo'), (19, 'diff2'), (19, 'diff-difftopo'), (20, 'def'), (20, 'diff-sametopo'), (20, 'diff2'), (20, 'diff-difftopo')]"
+22086,stderr,received,'Traceback (most recent call last):'
+22086,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/experimental-approach/topology_exp.py", line 84, in <module>'
+22087,stderr,received,'    trial_pool = random.sample(trial_pool, counts= [int(N_ITEMSETS*p) for p in PROPORTIONS]*N_ITEMSETS , k=N_TOTAL_TRIALS/2) '
+22087,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+22087,stderr,received,'  File "/opt/anaconda3/lib/python3.12/random.py", line 425, in sample'
+22087,stderr,received,'    selections = self.sample(range(total), k=k)'
+22087,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+22087,stderr,received,'  File "/opt/anaconda3/lib/python3.12/random.py", line 431, in sample'
+22087,stderr,received,'    result = [None] * k'
+22087,stderr,received,'             ~~~~~~~^~~'
+22087,stderr,received,"TypeError: can't multiply sequence by non-int of type 'float'"
+22090,Data,saved

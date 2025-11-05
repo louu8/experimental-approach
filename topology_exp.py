@@ -45,8 +45,7 @@ def run_trial(set_id, trial_type, base_item, comp_item):
     comp_item.present()
 
     key, rt = exp.keyboard.wait([K_d, K_s])
-    print(comp_item.filename)
-    print(comp_item.filename[11:])
+
     if (comp_item.filename==base_item.filename and key==K_s) or (comp_item.filename != base_item.filename and key==K_d):
         correct = True
     else :
@@ -75,14 +74,15 @@ for pid in practice_trials:
 present_instructions("Practice done. Press SPACE to start the main experiment.")
 
 trial_pool = []
+n_trial_per_types= [int(p*N_ITEMSETS) for p in PROPORTIONS]
 
-for set_id in range(1, N_ITEMSETS + 1):
-    for t in TRIAL_TYPES:
-        for _ in range(2):
-            trial_pool.append((set_id, t))
-
-trial_pool = trial_pool * 2  
-trial_pool = random.sample(trial_pool,counts=PROPORTIONS*N_TOTAL_TRIALS, k=N_TOTAL_TRIALS) 
+for set_id in range(1,N_ITEMSETS+1):
+    for t, n in zip(TRIAL_TYPES,n_trial_per_types):
+        for _ in range(n):
+            trial_pool.append((set_id,t))
+            
+trial_pool = trial_pool * 2
+trial_pool = random.shuffle(trial_pool)
 
 for (set_id, trial_type) in trial_pool:
     base_item = stimuli_dict[set_id]["def"]
