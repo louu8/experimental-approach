@@ -10,7 +10,7 @@ import os
 
 IMG_FOLDER = r"SameDiff"
 
-BLANK_DURATION = 500 
+BLANK_DURATION = 1000 
 FEEDBACK_DURATION = 1000
 
 exp = design.Experiment(name="Topology Exp", background_colour=C_WHITE, foreground_colour=C_BLACK)
@@ -34,7 +34,7 @@ def present_instructions(text):
 
 def run_trial(set_id, trial_type, base_item, comp_item):
     base_item.present()
-    exp.clock.wait(800)
+    exp.clock.wait(1000)
     exp.screen.clear(); exp.screen.update()
     exp.clock.wait(BLANK_DURATION)
     comp_item.present()
