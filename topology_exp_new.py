@@ -77,7 +77,7 @@ for set_id in range(1, N_ITEMSETS + 1):
         (set_id, "diff-sametopo"),
         (set_id, "diff2"),
         (set_id, "diff-difftopo"),
-    ])
+    ])  #PROPORTIONS 
 
 trial_pool = trial_pool * 2
 
